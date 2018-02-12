@@ -8,7 +8,7 @@
 
 ## Motivation
 
-![Theory on design and effects of sketchy rendering](http://openaccess.city.ac.uk/1274/)
+[Theory on design and effects of sketchy rendering](http://openaccess.city.ac.uk/1274/)
 
 ## Install
 
