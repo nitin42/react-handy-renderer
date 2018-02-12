@@ -10,6 +10,10 @@
 
 [Theory on design and effects of sketchy rendering](http://openaccess.city.ac.uk/1274/)
 
+## Demo
+
+You can find the demo [here](https://codesandbox.io/s/nrpq071nwm) on CodeSandbox.
+
 ## Install
 
 ```
