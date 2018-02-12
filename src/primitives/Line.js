@@ -1,4 +1,4 @@
-import { setStrokes, setAppearance } from '../styles/strokes'
+import { renderShape } from './shape'
 
 class Line {
   constructor(root, props) {
@@ -6,11 +6,12 @@ class Line {
     this.props = props
   }
 
-  render(p, scribble) {
-    const { from, to } = this.props
-    setAppearance(scribble, this.root, this.props)
-    setStrokes(p, this.props)
-    scribble.scribbleLine(from.x, from.y, to.x, to.y)
+  render = (p, scribble) => {
+    renderShape(
+      'scribbleLine',
+      { root: this.root, props: this.props },
+      { p, scribble }
+    )
   }
 }
 

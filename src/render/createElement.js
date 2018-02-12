@@ -4,7 +4,7 @@ import {
   Main,
   Ellipse,
   Line,
-  BoundedRect,
+  RoundedRect,
   Curve
 } from '../primitives'
 
@@ -15,7 +15,7 @@ function createElement(type, props, root) {
     PAPER: () => new Paper(root, props),
     ELLIPSE: () => new Ellipse(root, props),
     LINE: () => new Line(root, props),
-    BOUNDEDRECT: () => new BoundedRect(root, props),
+    ROUNDEDRECT: () => new RoundedRect(root, props),
     CURVE: () => new Curve(root, props),
     default: undefined,
   }

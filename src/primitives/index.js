@@ -3,7 +3,7 @@ import { Rectangle } from './Rectangle'
 import { Main } from './Main'
 import { Ellipse } from './Ellipse'
 import { Line } from './Line'
-import { BoundedRect } from './BoundedRect'
+import { RoundedRect } from './RoundedRect'
 import { Curve } from './Curve'
 
 export {
@@ -12,6 +12,6 @@ export {
   Main,
   Ellipse,
   Line,
-  BoundedRect,
+  RoundedRect,
   Curve
 }

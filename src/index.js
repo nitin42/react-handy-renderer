@@ -5,7 +5,7 @@ const Rectangle = 'RECTANGLE';
 const Main = 'MAIN';
 const Ellipse = 'ELLIPSE';
 const Line = 'LINE';
-const BoundedRect = 'BOUNDEDRECT';
+const RoundedRect = 'ROUNDEDRECT';
 const Curve = 'CURVE';
 
 export {
@@ -14,7 +14,7 @@ export {
   Main,
   Rectangle,
   Line,
-  BoundedRect,
+  RoundedRect,
   Curve,
   Ellipse
 }

@@ -1,6 +1,6 @@
 import { renderShape } from './shape'
 
-class Rectangle {
+class RoundedRect {
   constructor(root, props) {
     this.root = root
     this.props = props
@@ -8,11 +8,11 @@ class Rectangle {
 
   render = (p, scribble) => {
     renderShape(
-      'scribbleRect',
+      'scribbleRoundedRect',
       { root: this.root, props: this.props },
       { p, scribble }
     )
   }
 }
 
-export { Rectangle }
+export { RoundedRect }
