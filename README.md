@@ -17,7 +17,7 @@ npm install react-handy-renderer
 `react-handy-renderer` exposes a set of **five** primitives:
 
 * **Rectangle**
-* **BoundedRect**
+* **RoundedRect**
 * **Line**
 * **Curve**
 * **Ellipse**
@@ -50,12 +50,12 @@ render(<Sketch />, document.getElementById('canvas-container'));
 
 ## Examples
 
-### BoundedRect
+### RoundedRect
 
 ![bounded-rect](https://i.gyazo.com/f1602364b59f2e13a371e52de7ba92af.png)
 
 ```js
-<BoundedRect
+<RoundedRect
   position={{ x: 300, y: 100 }}
   width={50}
   height={50}
@@ -143,7 +143,7 @@ import {
   Main,
   Ellipse,
   Line,
-  BoundedRect,
+  RoundedRect,
   Curve,
 } from 'react-handy-renderer'
 
@@ -267,7 +267,7 @@ Wrapper component for creating the canvas.
 
 [Example](#rectangle)
 
-### BoundedRect
+### RoundedRect
 
 **Props**
 
@@ -289,7 +289,7 @@ Wrapper component for creating the canvas.
 
 * `maxOffset` - Number value for giving coordinates an offset,
 
-[Example](boundedrect)
+[Example](roundedrect)
 
 ### Line
 
