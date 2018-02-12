@@ -12,7 +12,7 @@
 
 ## Demo
 
-You can find the demo [here](https://codesandbox.io/s/nrpq071nwm) on CodeSandbox.
+You can find the demo [here](https://codesandbox.io/s/nrpq071nwm) on CodeSandbox (switch on "module view" on the top right and go to /demo)
 
 ## Install
 
