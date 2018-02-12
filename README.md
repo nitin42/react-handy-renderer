@@ -6,6 +6,10 @@
   <img src="https://i.gyazo.com/470b052326829e7749197f40f545b5d6.png" />
 </p>
 
+## Motivation
+
+![Theory on design and effects of sketchy rendering](http://openaccess.city.ac.uk/1274/)
+
 ## Install
 
 ```
