@@ -1,6 +1,6 @@
 # react-handy-renderer
 
-> ***✏️ &nbsp;&nbsp;Draw 2D primitives in sketchy style with React***
+> ***✏️ &nbsp; Draw 2D primitives in sketchy style with React***
 
 <p align="center">
   <img src="https://i.gyazo.com/470b052326829e7749197f40f545b5d6.png" />
